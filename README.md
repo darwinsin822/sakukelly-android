@@ -16,6 +16,18 @@ Puedes descargar el archivo APK listo para instalar en tu teléfono móvil direc
 
 ---
 
+## 📸 Capturas de Pantalla
+
+<div align="center">
+
+| 🎧 Mixes Diarios & Biblioteca | 🟢 Spotify Hub & Downloader | 📁 Explorador de Carpetas |
+| :---: | :---: | :---: |
+| <img src="./assets/screenshots/screenshot_home.jpg" width="260px" style="border-radius: 12px;" /> | <img src="./assets/screenshots/screenshot_spotify_hub.jpg" width="260px" style="border-radius: 12px;" /> | <img src="./assets/screenshots/screenshot_folders.jpg" width="260px" style="border-radius: 12px;" /> |
+
+</div>
+
+---
+
 ## ✨ Características Principales
 
 - **Interfaz Moderna en Jetpack Compose**: Diseño visual fluido, modo oscuro y Material Design 3.
