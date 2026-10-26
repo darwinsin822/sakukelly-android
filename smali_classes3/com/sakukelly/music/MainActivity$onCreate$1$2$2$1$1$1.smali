@@ -1,0 +1,348 @@
+.class final Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;
+.super Ljava/lang/Object;
+.source "MainActivity.kt"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function4;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/sakukelly/music/MainActivity$onCreate$1$2$2;->invoke(Landroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/runtime/Composer;I)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lkotlin/jvm/functions/Function4<",
+        "Landroidx/compose/animation/AnimatedContentScope;",
+        "Landroidx/navigation/NavBackStackEntry;",
+        "Landroidx/compose/runtime/Composer;",
+        "Ljava/lang/Integer;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x0,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic $libraryViewModel:Lcom/sakukelly/music/ui/viewmodel/LibraryViewModel;
+
+.field final synthetic $navController:Landroidx/navigation/NavHostController;
+
+.field final synthetic $playerViewModel:Lcom/sakukelly/music/ui/viewmodel/PlayerViewModel;
+
+.field final synthetic $searchViewModel:Lcom/sakukelly/music/ui/viewmodel/SearchViewModel;
+
+
+# direct methods
+.method public static synthetic $r8$lambda$M5IQx4-7kwF-hfiuE96XE35pvo4(Landroidx/navigation/NavHostController;)Lkotlin/Unit;
+    .locals 0
+
+    invoke-static {p0}, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->invoke$lambda$2(Landroidx/navigation/NavHostController;)Lkotlin/Unit;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic $r8$lambda$Py5IU8t7hTwo6jcSsw0hSd7hEHM(Landroidx/navigation/NavHostController;)Lkotlin/Unit;
+    .locals 0
+
+    invoke-static {p0}, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->invoke$lambda$3(Landroidx/navigation/NavHostController;)Lkotlin/Unit;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic $r8$lambda$Z_Y8Kg8_XHyZ20CA2IRVtUUmuuQ(Landroidx/navigation/NavHostController;)Lkotlin/Unit;
+    .locals 0
+
+    invoke-static {p0}, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->invoke$lambda$4(Landroidx/navigation/NavHostController;)Lkotlin/Unit;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic $r8$lambda$k7W4WKXb6iFzGjQkvw4dHY86zEY(Landroidx/navigation/NavHostController;)Lkotlin/Unit;
+    .locals 0
+
+    invoke-static {p0}, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->invoke$lambda$0(Landroidx/navigation/NavHostController;)Lkotlin/Unit;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic $r8$lambda$sQ18OVvvwJHUNxbPOsOarMqiN4E(Landroidx/navigation/NavHostController;)Lkotlin/Unit;
+    .locals 0
+
+    invoke-static {p0}, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->invoke$lambda$1(Landroidx/navigation/NavHostController;)Lkotlin/Unit;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method constructor <init>(Lcom/sakukelly/music/ui/viewmodel/LibraryViewModel;Lcom/sakukelly/music/ui/viewmodel/PlayerViewModel;Lcom/sakukelly/music/ui/viewmodel/SearchViewModel;Landroidx/navigation/NavHostController;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->$libraryViewModel:Lcom/sakukelly/music/ui/viewmodel/LibraryViewModel;
+
+    iput-object p2, p0, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->$playerViewModel:Lcom/sakukelly/music/ui/viewmodel/PlayerViewModel;
+
+    iput-object p3, p0, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->$searchViewModel:Lcom/sakukelly/music/ui/viewmodel/SearchViewModel;
+
+    iput-object p4, p0, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->$navController:Landroidx/navigation/NavHostController;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method private static final invoke$lambda$0(Landroidx/navigation/NavHostController;)Lkotlin/Unit;
+    .locals 7
+
+    const-string v0, "$navController"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 103
+    move-object v1, p0
+
+    check-cast v1, Landroidx/navigation/NavController;
+
+    const/4 v5, 0x6
+
+    const/4 v6, 0x0
+
+    const-string v2, "search"
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    invoke-static/range {v1 .. v6}, Landroidx/navigation/NavController;->navigate$default(Landroidx/navigation/NavController;Ljava/lang/String;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;ILjava/lang/Object;)V
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method
+
+.method private static final invoke$lambda$1(Landroidx/navigation/NavHostController;)Lkotlin/Unit;
+    .locals 7
+
+    const-string v0, "$navController"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 104
+    move-object v1, p0
+
+    check-cast v1, Landroidx/navigation/NavController;
+
+    const/4 v5, 0x6
+
+    const/4 v6, 0x0
+
+    const-string v2, "player"
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    invoke-static/range {v1 .. v6}, Landroidx/navigation/NavController;->navigate$default(Landroidx/navigation/NavController;Ljava/lang/String;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;ILjava/lang/Object;)V
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method
+
+.method private static final invoke$lambda$2(Landroidx/navigation/NavHostController;)Lkotlin/Unit;
+    .locals 7
+
+    const-string v0, "$navController"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 105
+    move-object v1, p0
+
+    check-cast v1, Landroidx/navigation/NavController;
+
+    const/4 v5, 0x6
+
+    const/4 v6, 0x0
+
+    const-string v2, "settings"
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    invoke-static/range {v1 .. v6}, Landroidx/navigation/NavController;->navigate$default(Landroidx/navigation/NavController;Ljava/lang/String;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;ILjava/lang/Object;)V
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method
+
+.method private static final invoke$lambda$3(Landroidx/navigation/NavHostController;)Lkotlin/Unit;
+    .locals 7
+
+    const-string v0, "$navController"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 106
+    move-object v1, p0
+
+    check-cast v1, Landroidx/navigation/NavController;
+
+    const/4 v5, 0x6
+
+    const/4 v6, 0x0
+
+    const-string v2, "playlists"
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    invoke-static/range {v1 .. v6}, Landroidx/navigation/NavController;->navigate$default(Landroidx/navigation/NavController;Ljava/lang/String;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;ILjava/lang/Object;)V
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method
+
+.method private static final invoke$lambda$4(Landroidx/navigation/NavHostController;)Lkotlin/Unit;
+    .locals 7
+
+    const-string v0, "$navController"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 107
+    move-object v1, p0
+
+    check-cast v1, Landroidx/navigation/NavController;
+
+    const/4 v5, 0x6
+
+    const/4 v6, 0x0
+
+    const-string v2, "equalizer"
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    invoke-static/range {v1 .. v6}, Landroidx/navigation/NavController;->navigate$default(Landroidx/navigation/NavController;Ljava/lang/String;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;ILjava/lang/Object;)V
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 98
+    check-cast p1, Landroidx/compose/animation/AnimatedContentScope;
+
+    check-cast p2, Landroidx/navigation/NavBackStackEntry;
+
+    check-cast p3, Landroidx/compose/runtime/Composer;
+
+    check-cast p4, Ljava/lang/Number;
+
+    invoke-virtual {p4}, Ljava/lang/Number;->intValue()I
+
+    move-result p4
+
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->invoke(Landroidx/compose/animation/AnimatedContentScope;Landroidx/navigation/NavBackStackEntry;Landroidx/compose/runtime/Composer;I)V
+
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p1
+.end method
+
+.method public final invoke(Landroidx/compose/animation/AnimatedContentScope;Landroidx/navigation/NavBackStackEntry;Landroidx/compose/runtime/Composer;I)V
+    .locals 10
+
+    const-string p4, "$this$composable"
+
+    invoke-static {p1, p4}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string p1, "it"
+
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 100
+    iget-object v0, p0, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->$libraryViewModel:Lcom/sakukelly/music/ui/viewmodel/LibraryViewModel;
+
+    .line 101
+    iget-object v1, p0, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->$playerViewModel:Lcom/sakukelly/music/ui/viewmodel/PlayerViewModel;
+
+    .line 102
+    iget-object v2, p0, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->$searchViewModel:Lcom/sakukelly/music/ui/viewmodel/SearchViewModel;
+
+    .line 99
+    iget-object p1, p0, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->$navController:Landroidx/navigation/NavHostController;
+
+    new-instance v3, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1$$ExternalSyntheticLambda0;
+
+    invoke-direct {v3, p1}, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1$$ExternalSyntheticLambda0;-><init>(Landroidx/navigation/NavHostController;)V
+
+    iget-object p1, p0, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->$navController:Landroidx/navigation/NavHostController;
+
+    new-instance v4, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1$$ExternalSyntheticLambda1;
+
+    invoke-direct {v4, p1}, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1$$ExternalSyntheticLambda1;-><init>(Landroidx/navigation/NavHostController;)V
+
+    iget-object p1, p0, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->$navController:Landroidx/navigation/NavHostController;
+
+    new-instance v5, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1$$ExternalSyntheticLambda2;
+
+    invoke-direct {v5, p1}, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1$$ExternalSyntheticLambda2;-><init>(Landroidx/navigation/NavHostController;)V
+
+    iget-object p1, p0, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->$navController:Landroidx/navigation/NavHostController;
+
+    new-instance v6, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1$$ExternalSyntheticLambda3;
+
+    invoke-direct {v6, p1}, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1$$ExternalSyntheticLambda3;-><init>(Landroidx/navigation/NavHostController;)V
+
+    iget-object p1, p0, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1;->$navController:Landroidx/navigation/NavHostController;
+
+    new-instance v7, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1$$ExternalSyntheticLambda4;
+
+    invoke-direct {v7, p1}, Lcom/sakukelly/music/MainActivity$onCreate$1$2$2$1$1$1$$ExternalSyntheticLambda4;-><init>(Landroidx/navigation/NavHostController;)V
+
+    const/16 v9, 0x248
+
+    move-object v8, p3
+
+    invoke-static/range {v0 .. v9}, Lcom/sakukelly/music/ui/screens/HomeScreenKt;->HomeScreen(Lcom/sakukelly/music/ui/viewmodel/LibraryViewModel;Lcom/sakukelly/music/ui/viewmodel/PlayerViewModel;Lcom/sakukelly/music/ui/viewmodel/SearchViewModel;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;I)V
+
+    return-void
+.end method

@@ -1,0 +1,9 @@
+build/
+*/build/
+dist/
+*.apk
+*.aab
+*.jks
+*.keystore
+*.idsig
+.DS_Store
