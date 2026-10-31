@@ -74,6 +74,10 @@ A continuación se muestra la evidencia empírica de la ejecución determinista 
   <img src="./assets/sakukelly-android-execution.png" alt="Execution Results" width="95%" style="border-radius: 8px; border: 1px solid #282e3e; margin: 16px 0;" />
 </div>
 
+## 🤝 Créditos y Reconocimientos
+- **[kota-zo/myspoti](https://github.com/kota-zo/myspoti)**: Proyecto de referencia para la integración nativa del motor de descargas en clientes Android de Spotify.
+- **Material Design 3 & Jetpack Compose**: Componentes de interfaz de usuario de Android.
+
 ## 📄 Licencia
 
 Distribuido bajo la Licencia MIT. Consulta el archivo `LICENSE` para más información.
